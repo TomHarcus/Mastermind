@@ -4,7 +4,7 @@ try:
     with connect(
             host="localhost",
             user="tom",
-            password="Broughton123",
+            password="", # Insert Password
             database="mastermind",
     ) as connection:
         cursor = connection.cursor()

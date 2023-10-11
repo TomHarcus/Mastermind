@@ -56,7 +56,7 @@ class Leaderboard():
             with connect(
                 host="localhost",
                 user="tom",
-                password="Broughton123",
+                password="", # Insert Password
                 database="mastermind",
             ) as connection:
                 cursor = connection.cursor()
@@ -86,7 +86,7 @@ class Leaderboard():
                 with connect(
                         host="localhost",
                         user="tom",
-                        password="Broughton123",
+                        password="", # Insert Password
                         database="mastermind",
                 ) as connection:
                     cursor = connection.cursor()
